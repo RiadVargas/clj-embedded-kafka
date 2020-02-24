@@ -1,5 +1,7 @@
 # clj-embedded-kafka
 
+[![Clojars Project](https://img.shields.io/clojars/v/riadvargas/clj-embedded-kafka.svg)](https://clojars.org/riadvargas/clj-embedded-kafka)
+
 This library provides an easy way to unit test flows that uses Kafka underlying. It bootstraps both [Apache Zookeeper](https://zookeeper.apache.org/) and [Apache Kafka](https://kafka.apache.org/) ephemerally for executions inside a macro (located in `core.clj`).
 
 ## Usage
